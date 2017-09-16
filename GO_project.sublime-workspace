@@ -16,11 +16,22 @@
 	"buffers":
 	[
 		{
-			"file": "GO_watering_v0.1.ino",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 422,
+				"buffer_size": 16,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n  BRANCH:  On branch `master` tracking `origin/master`.\n           You're ahead by 1.\n  ROOT:    C:\\Users\\CrashBox\\Documents\\Git\\GrowOpen\n  HEAD:    7705de7 V0.1\n\n    Your working directory is clean.\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool for conflict\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [t][s] show stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] discard stash\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [r]         refresh status\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
+			"settings":
+			{
+				"buffer_size": 1776,
+				"line_ending": "Windows",
+				"name": "STATUS: GrowOpen",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -32,9 +43,21 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "re",
+		"last_filter": "gits",
 		"selected_items":
 		[
+			[
+				"gits",
+				"git: status"
+			],
+			[
+				"git push",
+				"git: push (force)"
+			],
+			[
+				"git status",
+				"git: status"
+			],
 			[
 				"re",
 				"Package Control: Remove Package"
@@ -62,10 +85,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"git status",
-				"git: status"
 			],
 			[
 				"pack",
@@ -96,8 +115,11 @@
 	],
 	"file_history":
 	[
-		"/C/Users/CrashBox/Documents/Git/hardware/teensy/avr/libraries/Time/Time.cpp",
+		"/C/Users/CrashBox/Documents/Git/GrowOpen/GO_project.sublime-project",
+		"/C/Program Files (x86)/Arduino/hardware/teensy/avr/libraries/Time/Time.cpp",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Arduino.h",
 		"/C/Users/CrashBox/Documents/Git/GrowOpen/.gitignore",
+		"/C/Users/CrashBox/Documents/Git/hardware/teensy/avr/libraries/Time/Time.cpp",
 		"/C/Users/CrashBox/AppData/Roaming/Sublime Text 3/Packages/SublimeSwitchFileDeluxe-master/switch_file_deluxe.py",
 		"/C/Users/CrashBox/Documents/Git/GrowOpen/GO_watering_v0.1.ino",
 		"/C/Users/CrashBox/Documents/Git/hardware/tools/avr/avr/include/stdlib.h",
@@ -142,30 +164,66 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "GO_watering_v0.1.ino",
+					"file": ".gitignore",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 422,
+						"buffer_size": 16,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								48
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"git_savvy.repo_path": "C:\\Users\\CrashBox\\Documents\\Git\\GrowOpen",
-							"syntax": "Packages/C Improved/C Improved.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": false,
+							"default_dir": "C:\\Users\\CrashBox\\Documents\\Git\\GrowOpen",
+							"git_savvy.help_hidden": false,
+							"git_savvy.interface": "status",
+							"git_savvy.repo_path": "C:\\Users\\CrashBox\\Documents\\Git\\GrowOpen",
+							"git_savvy.status_view": true,
+							"git_savvy.tabbable": true,
+							"syntax": "Packages/GitSavvy/syntax/status.sublime-syntax",
+							"tab_size": 2,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -208,6 +266,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 132.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -234,8 +296,12 @@
 		"selected_items":
 		[
 			[
+				"ardu",
+				"Arduino Lib\\cores\\arduino\\Arduino.h"
+			],
+			[
 				"time",
-				"hardware\\teensy\\avr\\libraries\\Time\\Time.cpp"
+				"Teensy Lib\\libraries\\Time\\Time.cpp"
 			]
 		],
 		"width": 0.0
